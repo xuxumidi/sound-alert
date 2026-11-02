@@ -1,0 +1,234 @@
+{
+  "threshold": 0.91,
+  "cases": [
+    {
+      "case": "reference_offset",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 57344,
+          "seconds": 3.584,
+          "score": 0.966986
+        }
+      ],
+      "count": 1,
+      "max_score": 0.966986
+    },
+    {
+      "case": "quiet_gain_0.1",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 71680,
+          "seconds": 4.48,
+          "score": 0.972058
+        }
+      ],
+      "count": 1,
+      "max_score": 0.972058
+    },
+    {
+      "case": "loud_gain_2",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 70656,
+          "seconds": 4.416,
+          "score": 0.984842
+        }
+      ],
+      "count": 1,
+      "max_score": 0.984842
+    },
+    {
+      "case": "white_noise_snr_20db",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 75776,
+          "seconds": 4.736,
+          "score": 0.965807
+        }
+      ],
+      "count": 1,
+      "max_score": 0.965807
+    },
+    {
+      "case": "white_noise_snr_10db",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 75776,
+          "seconds": 4.736,
+          "score": 0.91649
+        }
+      ],
+      "count": 1,
+      "max_score": 0.91649
+    },
+    {
+      "case": "simulated_room_echo",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 61440,
+          "seconds": 3.84,
+          "score": 0.914596
+        }
+      ],
+      "count": 1,
+      "max_score": 0.948229
+    },
+    {
+      "case": "playback_speed_0.99",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 60416,
+          "seconds": 3.776,
+          "score": 0.935562
+        }
+      ],
+      "count": 1,
+      "max_score": 0.935562
+    },
+    {
+      "case": "playback_speed_1.01",
+      "expected": 1,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 60416,
+          "seconds": 3.776,
+          "score": 0.966145
+        }
+      ],
+      "count": 1,
+      "max_score": 0.966145
+    },
+    {
+      "case": "silence",
+      "expected": 0,
+      "passed": true,
+      "events": [],
+      "count": 0,
+      "max_score": 0.0
+    },
+    {
+      "case": "random_noise",
+      "expected": 0,
+      "passed": true,
+      "events": [],
+      "count": 0,
+      "max_score": 0.0
+    },
+    {
+      "case": "reversed_reference",
+      "expected": 0,
+      "passed": true,
+      "events": [],
+      "count": 0,
+      "max_score": 0.726899
+    },
+    {
+      "case": "steady_1khz_tone",
+      "expected": 0,
+      "passed": true,
+      "events": [],
+      "count": 0,
+      "max_score": 0.073987
+    },
+    {
+      "case": "once_per_minute_ten_events",
+      "expected": 10,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 73728,
+          "seconds": 4.608,
+          "score": 0.94872
+        },
+        {
+          "end_sample": 1034240,
+          "seconds": 64.64,
+          "score": 0.981014
+        },
+        {
+          "end_sample": 1993728,
+          "seconds": 124.608,
+          "score": 0.94872
+        },
+        {
+          "end_sample": 2954240,
+          "seconds": 184.64,
+          "score": 0.981014
+        },
+        {
+          "end_sample": 3913728,
+          "seconds": 244.608,
+          "score": 0.94872
+        },
+        {
+          "end_sample": 4874240,
+          "seconds": 304.64,
+          "score": 0.981014
+        },
+        {
+          "end_sample": 5833728,
+          "seconds": 364.608,
+          "score": 0.94872
+        },
+        {
+          "end_sample": 6794240,
+          "seconds": 424.64,
+          "score": 0.981014
+        },
+        {
+          "end_sample": 7753728,
+          "seconds": 484.608,
+          "score": 0.94872
+        },
+        {
+          "end_sample": 8714240,
+          "seconds": 544.64,
+          "score": 0.981014
+        }
+      ],
+      "count": 10,
+      "max_score": 0.981014
+    },
+    {
+      "case": "three_plays_close_together",
+      "expected": 3,
+      "passed": true,
+      "events": [
+        {
+          "end_sample": 59392,
+          "seconds": 3.712,
+          "score": 0.962433
+        },
+        {
+          "end_sample": 119808,
+          "seconds": 7.488,
+          "score": 0.993654
+        },
+        {
+          "end_sample": 180224,
+          "seconds": 11.264,
+          "score": 0.939139
+        }
+      ],
+      "count": 3,
+      "max_score": 0.993654
+    }
+  ],
+  "passed": true,
+  "limitations": "Synthetic tests only. No actual loudspeaker, room noise, microphone, Wi-Fi, or inbox delivery tested."
+}

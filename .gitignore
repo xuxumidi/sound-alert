@@ -1,0 +1,6 @@
+.pio/
+include/secrets.h
+assets/*.wav
+*.pem
+*.eml
+__pycache__/

@@ -1,0 +1,2 @@
+# Only audio analysis/regeneration needs this; firmware build uses PlatformIO.
+numpy>=1.24,<3

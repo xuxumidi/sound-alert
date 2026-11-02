@@ -1,0 +1,18 @@
+{
+  "source": "C:\\Users\\90696\\Desktop\\TRACK01.WAV",
+  "sha256": "7f212a748f6cd24c8654119dfcbcd49242b785b7bed31d200529bb1b7bf36418",
+  "channels": 2,
+  "sample_rate": 48000,
+  "sample_width": 2,
+  "frames": 168320,
+  "seconds": 3.506666666666667,
+  "peak": 0.4375,
+  "rms_dbfs": -25.443809117482953,
+  "clipping_fraction": 0.0,
+  "reference_rate": 16000,
+  "reference_samples": 56107,
+  "template_frames": 54,
+  "template_seconds": 3.456,
+  "block_ms": 64,
+  "note": "Reference-file analysis only; no room-recording or hardware validation."
+}
