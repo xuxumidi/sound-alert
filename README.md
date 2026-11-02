@@ -8,6 +8,7 @@
 [![Platform](https://img.shields.io/badge/Platform-ESP32--S3-red)](https://www.espressif.com/en/products/socs/esp32-s3)
 [![Framework](https://img.shields.io/badge/Arduino--ESP32-2.0.17-blue)](https://github.com/espressif/arduino-esp32)
 [![Build](https://img.shields.io/badge/PlatformIO-6.x-orange)](https://platformio.org/)
+[![GitHub stars](https://img.shields.io/github/stars/xuxumidi/sound-alert?style=social)](https://github.com/xuxumidi/sound-alert/stargazers)
 
 *无云端 · 无独立服务器 · 无推送会员 · 只依赖你自己的邮箱*
 
@@ -200,6 +201,10 @@ sound-alert/
 - SMTP 提交后确认丢失时可能重复投递（协议本身限制，见 [RFC 5321](https://datatracker.ietf.org/doc/html/rfc5321/)）；同一事件编号只代表同一件事
 - 正在采集或写卡中的事件断电可能丢失；已写入 `.ready` 的事件重启可恢复
 - 本设备不是安防/告警设备，不能替代专用报警系统
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=xuxumidi/sound-alert&type=Date)](https://star-history.com/#xuxumidi/sound-alert&Date)
 
 ## License
 
